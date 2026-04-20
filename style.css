@@ -10,7 +10,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #002147;
+    background: rgb(86, 35, 35);
     padding: 15px 30px;
 }
 
@@ -19,13 +19,14 @@ body{
 }
 
 .logo{
-    color: rgb(119, 73, 16);
+    color: beige;
     font-weight: bold;
+    font-style: italic;
 }
 
 .nav-links{
     list-style: none;
-    display: flex;
+    display:flex;
 }
 
 .nav-links li{
@@ -33,7 +34,7 @@ body{
 }
 
 .nav-links a{
-    color:rgb(97, 53, 8);
+    color:beige;
     text-decoration: none;
     transition: 0.3s;
 }
@@ -46,7 +47,7 @@ body{
 .menu-toggle {
     display: none;
     font-size: 24px;
-    color: rgb(119, 73, 16);
+    color: beige;
     cursor: pointer;
 }
 
@@ -54,10 +55,11 @@ body{
 .hero {
     text-align: center;
     padding: 100px 20px;
-    background: linear-gradient(rgba(0,33,71,0.7), rgba(0,33,71,0.7)),
-                url('https://images.unsplash.com/photo-1588072432836-e10032774350');
+    background: linear-gradient(rgba(0,33,71,0.7), rgba(0,33,71,0.7));
+    background-image: url(https://images.unsplash.com/photo-1776721653459-c0e607544866?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover;
     color: white;
+    
 }
 
 .hero h1 {
@@ -119,7 +121,7 @@ body{
 
 /* MISSION & VISION */
 .mission-vision {
-    display: flex;
+    display:flex;
     justify-content: center;
     gap: 20px;
     padding: 40px 20px;
@@ -159,8 +161,8 @@ body{
 
 /* FOOTER */
 footer {
-    background: #002147;
-    color: white;
+    background: rgb(86, 35, 35);
+    color:beige;
     text-align: center;
     padding: 20px;
     margin-top: 40px;
@@ -175,15 +177,15 @@ footer {
     .nav-links {
         position: fixed;
         top: 60px;
-        right: -100%;
+        right: +100%;
         width: 100%;
         height: calc(100vh - 60px);
-        background: #002147;
+        background:  rgb(86, 35, 35);
         flex-direction: column;
         align-items: center;
-        justify-content: start;
+        justify-content:start ;
         padding-top: 40px;
-        transition: 0.3s;
+        transition: 0.9s;
     }
 
     .nav-links.active {
@@ -197,4 +199,17 @@ footer {
     .nav-links a {
         font-size: 18px;
     }
+}
+
+.about-preview {
+    text-align: center;
+    padding: 60px 20px;
+    background: #e6f0ff;
+}
+
+/* QUICK LINKS */
+.quick-links {
+    text-align: center;
+    padding: 5px 20px;
+    background: #e6f0ff;
 }
