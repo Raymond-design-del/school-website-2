@@ -42,6 +42,14 @@ body{
     color: #00aaff;
 }
 
+/* MENU TOGGLE (Hamburger) */
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    color: rgb(119, 73, 16);
+    cursor: pointer;
+}
+
 /*HERO SECTION*/
 .hero {
     text-align: center;
@@ -158,4 +166,35 @@ footer {
     margin-top: 40px;
 }
 
-    
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 60px;
+        right: -100%;
+        width: 100%;
+        height: calc(100vh - 60px);
+        background: #002147;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        padding-top: 40px;
+        transition: 0.3s;
+    }
+
+    .nav-links.active {
+        right: 0;
+    }
+
+    .nav-links li {
+        margin: 15px 0;
+    }
+
+    .nav-links a {
+        font-size: 18px;
+    }
+}
