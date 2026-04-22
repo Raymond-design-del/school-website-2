@@ -2,7 +2,7 @@ body{
     margin: 0;
     font-family: 'Segoe UI', Arial, sans-serif;
     background: #f5f7fa;
-    color: #333;
+    color:black;
 }
 
 /*NAVBAR*/
@@ -74,7 +74,7 @@ body{
 .page-header {
     text-align: center;
     padding: 60px 20px;
-    background: #e6f0ff;
+    background:bisque;
 }
 
 /*SECTIONS*/
@@ -98,11 +98,11 @@ body{
 }
 
 .card {
-    background:beige;
+    background:bisque;
     padding: 25px;
     width: 350px;
     border-radius: 12px; 
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 35px 10px 15px rgba(0,0,0,0.1);
     transition: 0.3s;
 }
 
@@ -114,8 +114,11 @@ body{
 .card a {
     display: inline-block;
     margin-top: 10px;
-    color: #002147;
+    color: maroon;
+    background: white;
     font-weight: bold;
+    border-radius: 6px;
+    padding: 5px 10px;
 }
 
 
@@ -257,8 +260,8 @@ footer {
 .read-more {
     display: inline-block;
     margin-top: 10px;
-    padding: 8px 15px;
-    background:#4B1F1B;
+    padding: 5px 10px;
+    background:white;
     color:beige;
     text-decoration: none;
     border-radius: 5px;
