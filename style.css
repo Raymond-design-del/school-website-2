@@ -121,7 +121,7 @@ body{
 
 /* MISSION & VISION */
 .mission-vision {
-    display:flex;
+    display: flex;
     justify-content: center;
     gap: 20px;
     padding: 40px 20px;
@@ -241,4 +241,15 @@ footer {
 
 .call-btn:hover {
     background: #218838;
+}
+
+.phone-box {
+    background:beige;
+    padding: 50px;
+    width: 260px;
+    border-radius: 12px; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    justify-content: center;
+    display: flex;
 }
