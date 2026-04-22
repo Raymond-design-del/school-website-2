@@ -100,7 +100,7 @@ body{
 .card {
     background:beige;
     padding: 25px;
-    width: 260px;
+    width: 350px;
     border-radius: 12px; 
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     transition: 0.3s;
@@ -252,4 +252,24 @@ footer {
     transition: 0.3s;
     justify-content: center;
     display: flex;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background:#4B1F1B;
+    color:beige;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.read-more:hover {
+    background: #004080;
+}
+
+.about-section p {
+    max-width: 600px;
+    margin: auto;
 }
