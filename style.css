@@ -106,17 +106,17 @@ body{
 
 /*CARDS*/
 .cards {
-    display: flex;
+    display: grid;
     justify-content: center;
     gap: 25px;
-    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     margin-top: 1px;
 }
 
 .card {
     background:beige;
     padding: 5px;
-    width: 400px;
+    width: 300px;
     border-radius: 2px; 
     box-shadow: 35px 10px 15px rgba(0,0,0,0.1);
     transition: 0.3s;
