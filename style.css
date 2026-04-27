@@ -58,7 +58,7 @@ body{
     color: beige;
     font-weight: bold;
     font-style: italic;
-    font-size: 40px;
+    font-size: 30px;
     margin: 0;
     padding: 0;
 }
@@ -88,7 +88,7 @@ body{
 /* MENU TOGGLE (Hamburger) */
 .menu-toggle {
     display: none;
-    font-size: 24px;
+    font-size: 34px;
     color: beige;
     cursor: pointer;
 }
